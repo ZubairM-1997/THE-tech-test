@@ -2,15 +2,15 @@
 
 ## Instructions
 Build the following:
-• a graphQL server in node using any appropriate library
-• an endpoint in the server that accepts an ip address as a query string, or POST
-• The endpoint should return the same results that the public API does. However your client must NOT call the public API directly, it should use your server and endpoint
-• A unit or integration test for your API endpoint using any framework you choose
+1) a graphQL server in node using any appropriate library
+2) an endpoint in the server that accepts an ip address as a query string, or POST
+3) The endpoint should return the same results that the public API does. However your client must NOT call the public API directly, it should use your server and endpoint
+4) A unit or integration test for your API endpoint using any framework you choose
 
 BONUS
 Extend the API in the following ways:
-• A new field is returned called “region_plus_code” that returns the values of “region” and “region_code” where region_plus_code = region + “|” + region_code
-• The existing endpoint or a new endpoint allowed a comma-separated list of ip addresses and returns the results for each one
+1) A new field is returned called “region_plus_code” that returns the values of “region” and “region_code” where region_plus_code = region + “|” + region_code
+2) The existing endpoint or a new endpoint allowed a comma-separated list of ip addresses and returns the results for each one
 
 ### Setting up
 1) Clone the repository
