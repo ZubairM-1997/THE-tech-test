@@ -22,7 +22,7 @@ To see all the tests passing, enter "npm run test" in the terminal to view the t
 
 ### Considerations for Scaling & Security
 
-1) Implement GraphQL Federation
+1) *Implement GraphQL Federation*
 
 ![federation](./architecture.png)
 
